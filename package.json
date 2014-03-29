@@ -1,0 +1,15 @@
+{
+    "name": "mongoose-rest-ready",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/skwee357/mongoose-rest-ready.git"
+    },
+    "keywords": [],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "dependencies": {
+        "mongoose": ">=3.4.0"
+    }
+}
