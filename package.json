@@ -1,15 +1,27 @@
 {
     "name": "mongoose-rest-ready",
     "version": "0.0.1",
+    "author": "\"skwee357\" Dmitry Kudryavtsev",
+    "description": "A plugin for mongoosejs to turn documents into REST API ready responses",
+    "contributors": [
+        {
+            "name": "Dmitry Kudryavtsev",
+        }
+    ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/skwee357/mongoose-rest-ready.git"
+        "url": "https://github.com/skwee357/mongoose-rest-ready.git"
     },
     "keywords": [],
     "engines": {
         "node": ">= 0.8.0"
     },
     "dependencies": {
-        "mongoose": ">=3.4.0"
-    }
+        "mongoose": "~3.4.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.18.0",
+        "chai": "~1.9.0"
+    },
+    "license": "MIT"
 }
